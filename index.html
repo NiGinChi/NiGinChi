@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+		<title>Die Wetterfee</title>
+		<link rel="stylesheet" href="src/style.css" />
+  </head>
+  <!-- start body -->
+  <body>
+
+
+    <div class="container">
+
+      <h1> 🧚‍♀️ Wetterfee</h1>
+
+      
+        <!-- search bar -->
+        <div class="row">
+  <div class="col-sm">
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Gib den Ort ein 🔍"
+          />
+          <button class="btn btn-info my-2 my-sm-12" type="submit">
+            Los!
+          </button>
+          </form>
+          <!-- location and current time -->
+
+
+          <p>
+            <h1> Munich </h1>
+            <h5 id="displayDateTime"></h5>
+          </p>
+          </div>
+          <!-- display current temperatur -->
+        <div class="container border p-5">
+        <div class="row">
+          <div class="col-sm">
+            <img class="sun" src="src/wsun.png" />
+          </div>
+          <div class="col-sm">
+            <div class="daytemperatur">
+              <h3>17°C </h3>
+            </div>
+            </br>
+             <div class="nighttemperatur"> 12°C
+            </div>
+        </div>
+       </div>
+            </div>
+               </div>
+               
+               <!-- display Sunset and Sunrise -->
+            <div class="row border p-5">
+          <div class="col-sm">
+            <img class="sundawn" src="src/wsunrise.png" width="50px;" />
+          </div>
+          <div class="col-sm">
+            <img class="sunset" src="src/wsunset.png" width="50px;"/>
+           </div>
+            </div>
+            <!-- display coming days -->
+        <div class="container border p-5">
+        
+          <div class="col-sm"> <h3>The upcoming days</h3></div>
+<div class="row">
+          <div class="col-sm">
+           
+            <table class="table">
+  <thead>
+    <tr>
+            <th scope="col">Sunday</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>ICON</td>
+          </tr>
+    <tr>
+            <td>Day Temperatur</td>
+         </tr>
+    <tr>
+           <td>Night Temperatur</td>
+          </tr>
+  </tbody>
+</table>
+        </div>
+
+        <div class="col-sm">
+           
+            <table class="table">
+  <thead>
+    <tr>
+            <th scope="col">Monday</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>ICON</td>
+          </tr>
+    <tr>
+            <td>Day Temperatur</td>
+         </tr>
+    <tr>
+           <td>Night Temperatur</td>
+          </tr>
+  </tbody>
+</table>
+        </div>
+<div class="col-sm">
+           
+            <table class="table">
+  <thead>
+    <tr>
+            <th scope="col">Tuesday</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>ICON</td>
+          </tr>
+    <tr>
+            <td>Day Temperatur</td>
+         </tr>
+    <tr>
+           <td>Night Temperatur</td>
+          </tr>
+  </tbody>
+</table>
+        </div>
+<div class="col-sm">
+           
+            <table class="table">
+  <thead>
+    <tr>
+            <th scope="col">Wednesday</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>ICON</td>
+          </tr>
+    <tr>
+            <td>Day Temperatur</td>
+         </tr>
+    <tr>
+           <td>Night Temperatur</td>
+          </tr>
+  </tbody>
+</table>
+        </div>
+        <div class="col-sm">
+           
+            <table class="table">
+  <thead>
+    <tr>
+            <th scope="col">Thursday</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+            <td>ICON</td>
+          </tr>
+    <tr>
+            <td>Day Temperatur</td>
+         </tr>
+    <tr>
+           <td>Night Temperatur</td>
+          </tr>
+  </tbody>
+</table>
+        </div>
+       </div>
+            </div>
+        <hr/>
+     
+      <div class="footer">
+        <p>This page was build by learning-enthusiast <a href="https://www.linkedin.com/in/nina-kroner/">Nina Kroner</a>.</p>
+        <p>Lets build something together!</p>
+</div>
+     </body>
+<script src="src/index.js"></script>
+      </html>
